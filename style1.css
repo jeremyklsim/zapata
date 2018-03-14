@@ -1,0 +1,395 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h3 {
+	padding-top: 20px;
+	font-weight: bold;
+
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+h4{
+	padding-bottom: 20px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+body, html {
+  height:100%;
+  margin:0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color:#666;
+}
+
+
+
+
+ul {
+		list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #37474f;
+		box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+		position: fixed;
+	 top: 0;
+	 width: 100%;
+	 z-index: 20;
+
+	}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+a {
+	color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #666666 ;
+}
+
+
+
+
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+	opacity: 0.7;
+
+/*fixed = parallax
+scroll = normal*/
+
+  background-attachment: scroll;
+}
+
+.pimg1{
+  background-image: url('./img/painting.jpg');
+  min-height: 100%;
+	padding-top: 5em;
+}
+
+.pimg2{
+  background-image: url('./img/plaster.jpg');
+  min-height: 400px;
+}
+
+.pimg3{
+  background-image: url('./img/painting2.jpeg');
+  min-height: 400px;
+}
+
+.pimg4{
+  background-image: url('./img/room.jpeg');
+  min-height: 400px;
+}
+
+.pimg5{
+  background-image: url('./img/portfolio.jpg');
+  min-height: 400px;
+}
+
+.pimg6{
+  background-image: url('./img/jslogo3.jpeg');
+  min-height: 400px;
+}
+
+
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+
+
+.section-light{
+  background-color: #f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color: #282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position: absolute;
+  top:50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+
+}
+
+.ptext2{
+  position: absolute;
+  top:50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+
+}
+
+.ptext .border{
+  background-color: #CAC9C6;
+  color: #000;
+  padding: 20px;
+
+}
+
+.ptext2 .border2{
+  background-color: #afacac;
+  color: #111;
+  padding: 20px;
+	opacity: 0.9;
+
+}
+div.para {
+	padding-bottom: 1.5em;
+	max-width: 70%;
+	text-align: center;
+	margin: auto;
+
+}
+/*flavours section csss*/
+div.gallery {
+    margin: 20px;
+padding-top: 1em;
+padding-bottom: 1em;
+    float: left;
+    width: 100px;
+
+
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+		color: #ffffff;
+}
+
+div.portfolio {
+    margin: 20px;
+padding-top: 1em;
+padding-bottom: 0.5em;
+    float: left;
+    width: 600px;
+		box-shadow: 0 6px 6px -2px rgba(0,0,0,.2);
+
+
+}
+
+div.portfolio2 {
+    margin: 20px;
+padding-top: 1em;
+padding-bottom: 1em;
+    float: left;
+    width: 600px;
+		box-shadow: 0 6px 6px -2px rgba(0,0,0,.2);
+
+
+}
+
+div.portfolio img {
+    width: 100%;
+    height: auto;
+}
+
+div.portfolio2 img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc2 {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+		color: #000000
+}
+
+article{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+	background-color: #282e34;
+	padding: 5px;
+
+}
+
+div.port{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+	background-color: #f4f4f4;
+	padding: 20px;
+
+}
+
+.column{
+	flex-direction: column;
+	align-items: center;
+
+}
+
+
+.floatwrap{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+/*NEWS SECTION*/
+div.news {
+    margin: 20px;
+padding-top: 1em;
+padding-bottom: 3em;
+
+    width: 400px;
+    box-shadow: 0 6px 6px -2px rgba(0,0,0,.2);
+
+}
+
+div.news img {
+    width: 400px;
+    height: auto;
+
+}
+
+div.descn {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+div.education{
+	padding-bottom: 40px;
+}
+
+
+
+.footer {
+
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #37474f;
+   color: #fff;
+   text-align: center;
+
+}
+
+.contact{
+text-align: center;
+      max-width: 500px;
+      margin: auto;
+      font-size: 20px;
+      padding: 2em;
+
+  }
+
+div.hide {
+	display: none;
+}
+
+
+br{
+  display: none;
+}
+
+/*java scroll section*/
+
+
+
+/*media*/
+@media(max-width:1366px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment: scroll;
+  }
+  .border, .border2{
+    display: inline-block;
+    line-height: 1.5em;
+  }
+
+/*
+	br{
+    display: inline;
+  }
+*/
+
+	.pimg1{
+		background-image: url('./img/jeremy4.jpg');
+		min-height: 1000px;
+	}
+	li a{
+		font-size: 35px;
+		padding: 18px 19px;
+
+	}
+
+	li {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	img{
+		width: 56px;
+	}
+
+}
